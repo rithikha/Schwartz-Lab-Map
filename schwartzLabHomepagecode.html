@@ -1,0 +1,61 @@
+// HOME: Image & overlayign text with link
+
+<div class='image-background'>
+  <div class='container h-100'>
+    <div class='row h-100 align-items-center'>
+      <div class='col-12 text-bottom'>
+        <p class='lead'></p>
+          <div class="bottom-left">Climate and land-use change are  altering the frequency and intensity of disturbance and climate extremes. Using a variety of remote sensing and GIS tools combined with traditional field research methodologies, our Lab works to address questions about the causes and consequences of disturbance and extreme events in forest landscapes.
+          <br>
+          <a style="color:white" href="https://naomibschwartz.weebly.com/research.html"><b>&rarr; Learn More</b></a>
+          </div>
+ <style>
+ body {
+  color: white;
+}
+
+.image-background {
+  height: 500px;
+  min-height: 50px;
+  background-image: url("http://blogs.ubc.ca/testdesign/files/2020/11/mitchell-luo-JaEMrexHdrM-unsplash-scaled.jpg");
+  background-size: cover;
+  background-position: left;
+}
+
+
+/* Bottom left text */
+.bottom-left {
+  font-size: 15px;
+  position: absolute;
+  bottom: 50px;
+  left: 16px;
+  right: 100px;
+}
+ </style>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+// HOME: Twitter widget sidebar
+
+<a class="twitter-timeline" data-tweet-limit="3"
+href="https://twitter.com/naomibschwartz?ref_src=twsrc%5Etfw" >
+Tweets by naomibschwartz</a> <script async src="https://platform.twitter.com/widgets.js"
+charset="utf-8"></script>
+
+
+// CSS Sidebar
+
+.page:not(.home):not(.page-id-17) #primary
+{
+    float: none;
+    margin-right: auto;
+    width: 100%;
+}
+
+.page:not(.home):not(.page-id-17) #secondary
+{
+   display: none;
+}
